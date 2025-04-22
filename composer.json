@@ -72,20 +72,5 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/Steevoh120/API-Client"
-    }
-],
-"minimum-stability": "dev",
-"prefer-stable": true
-
-    "scripts": {
-        "test": [
-            "./vendor/bin/phpunit",
-            "./vendor/bin/phpcs src --standard=PSR12"
-        ]
     }
 }
